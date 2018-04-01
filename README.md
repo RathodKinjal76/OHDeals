@@ -11,7 +11,7 @@ Ice - creams,deserts,Medical,Pizzas and pasta,Cafe,Sweets,Kids,Coupons and other
 
 1.  The user can Register via form and payment options,sign in 
 2.  Log in via Member id
-3.  Chnage password and forget passwors options
+3.  Change password and forget passwors options
 4.  Search offers location and category wise
 5.  See detailed description of coupon like TnC,validityy,branch address,get notified for upcoming offers.
 6.  Broadcast receiver that checks if Internet connection is working or not.
