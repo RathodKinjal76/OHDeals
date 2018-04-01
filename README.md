@@ -13,7 +13,7 @@ Ice - creams,deserts,Medical,Pizzas and pasta,Cafe,Sweets,Kids,Coupons and other
 2.  Log in via Member id
 3.  Change password and forget passwors options
 4.  Search offers location and category wise
-5.  See detailed description of coupon like TnC,validityy,branch address,get notified for upcoming offers.
+5.  See detailed description of coupon like Terms and Conditions,validityy,branch address,get notified for upcoming offers.
 6.  Broadcast receiver that checks if Internet connection is working or not.
 7.  Google Adwards to show Ads
 8.  Use of Glide library to load images
