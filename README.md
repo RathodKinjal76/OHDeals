@@ -1,6 +1,7 @@
 # OHDeals Club Membership Android App
  
 This project is made at a company named Virtual Height IT Solutions Pvt. Ltd. as part of college Minor Project.
+
 -> The Club gives Unlimited discounts at 200 locations in Ahmedabad for various categories like Bakery,Beauty and Saloons,Gym,Hotels,
 Ice - creams,deserts,Medical,Pizzas and pasta,Cafe,Sweets,Kids,Coupons and others.
 
