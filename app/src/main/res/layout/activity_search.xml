@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.kinjal.ohdeals.Search">
+
+    <Spinner
+        android:id="@+id/cityspinner"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="58dp" />
+
+    <Spinner
+        android:id="@+id/areaspinner"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cityspinner"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/catgoryspinner"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/areaspinner"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/edtBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/catgoryspinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Category Name"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btsrch"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edtBrand"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="#7f0000"
+        android:gravity="center"
+        android:text="SEARCH"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tvbuy"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#F8BBD0"
+        android:gravity="center"
+        android:text="Buy Membership"
+        android:textColor="#7f0000"
+        android:textSize="20dp" />
+
+</RelativeLayout>

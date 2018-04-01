@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kinjal.ohdeals.Login">
+
+    <ImageView
+        android:id="@+id/ohdealslogo"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/login" />
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ohdealslogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email/Mobile No"
+        android:inputType="textEmailAddress"
+        android:windowSoftInputMode="adjustPan" />
+
+    <requestFocus />
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:windowSoftInputMode="adjustPan" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edtpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#7f0000"
+        android:text="LOGIN"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvforgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Forgot Password ?"
+        android:textColor="#7f0000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvforgotpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        android:textColor="#7f0000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvreg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Have a ohDeals Member Id ?"
+        android:textColor="#7f0000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imgAd"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tvmember"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/banner" />
+
+</RelativeLayout>

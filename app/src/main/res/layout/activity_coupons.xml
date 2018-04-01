@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kinjal.ohdeals.Coupons">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/couponslist"
+        android:layout_above="@+id/tvbuy" />
+
+    <TextView
+        android:id="@+id/tvbuy"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="Buy Membership"
+        android:background="#F8BBD0"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#7f0000" />
+
+</RelativeLayout>

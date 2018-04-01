@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kinjal.ohdeals.BuyMembership">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F8BBD0"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="Purchase Plans"
+        android:textColor="#7f0000"
+        android:textSize="20dp"
+        android:id="@+id/textView" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        android:background="#E0E0E0"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btpurchase"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="#7f0000"
+            android:gravity="center"
+            android:text="Purchase at RS. 1000"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvValid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="Validity :"
+            android:textColor="#7f0000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Year"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:layout_below="@+id/tvValid"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Price :"
+            android:textColor="#7f0000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvPrices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:layout_below="@+id/tvPrice"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

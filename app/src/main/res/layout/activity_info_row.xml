@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.kinjal.ohdeals.SearchResult">
+
+   <!-- <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:padding="5dp"
+        android:text="City :"
+        android:textColor="#7f0000"
+        android:textSize="18dp" />-->
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:padding="5dp"
+        android:text="Ahmedabad"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+   <!-- <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:padding="5dp"
+        android:text="Area :"
+        android:textColor="#7f0000"
+        android:textSize="18dp" />-->
+
+    <TextView
+        android:id="@+id/tvArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:padding="5dp"
+        android:text="Thaltej"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+  <!--  <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:padding="5dp"
+        android:text="Address :"
+        android:textColor="#7f0000"
+        android:textSize="18dp" />
+-->
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:padding="5dp"
+        android:text="S.G.Highway"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+   <!-- <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:padding="5dp"
+        android:text="Contact Number :"
+        android:textColor="#7f0000"
+        android:textSize="18dp" />
+-->
+    <TextView
+        android:id="@+id/tvContNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:padding="5dp"
+        android:text="7359235488"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+</LinearLayout>

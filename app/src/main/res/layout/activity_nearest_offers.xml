@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kinjal.ohdeals.NearestOffers">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#F8BBD0"
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/tvnearestofr"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Nearest Offers"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:textColor="#7f0000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/tvcatgry"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingRight="5dp"
+            android:paddingTop="4dp"
+            android:textColor="#7f0000"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nearofferlist"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_above="@+id/tvbuy" />
+
+    <TextView
+        android:id="@+id/tvbuy"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#F8BBD0"
+        android:gravity="center"
+        android:text="Buy Membership"
+        android:textSize="20dp"
+        android:textColor="#7f0000"/>
+
+</RelativeLayout>

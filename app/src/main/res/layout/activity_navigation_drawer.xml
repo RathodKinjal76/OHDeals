@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context="com.example.kinjal.ohdeals.NavigationDrawer">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#7f0000"
+            android:gravity="center"
+            android:minWidth="50dp"
+            android:titleTextAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:id="@+id/linearl"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="start"
+        >
+
+        <ListView
+            android:id="@+id/ListView1"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="?android:attr/actionBarSize"
+            android:background="@android:color/white"
+            android:divider="#7f0000"
+            android:layout_gravity="start"
+            android:dividerHeight="1dp"
+             />
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

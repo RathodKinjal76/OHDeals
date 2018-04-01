@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kinjal.ohdeals.MembershipForm">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ohdealslogo"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/login" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtinputFullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ohdealslogo">
+
+                <EditText
+                    android:id="@+id/edtFullname"
+                    android:layout_width="350dp"
+                    android:layout_height="39dp"
+                    android:layout_below="@+id/ohdealslogo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:hint="Full Name"
+                    android:inputType="textPersonName" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtinputAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtinputFullname">
+
+                <EditText
+                    android:id="@+id/edtAdd"
+                    android:layout_width="350dp"
+                    android:layout_height="39dp"
+                    android:layout_below="@+id/txtinputFullname"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"
+                    android:hint="Address"
+                    android:inputType="textPersonName" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtinputCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtinputAddress">
+
+                <EditText
+                    android:id="@+id/edtcity"
+                    android:layout_width="350dp"
+                    android:layout_height="39dp"
+                    android:layout_below="@+id/txtinputAddress"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"
+                    android:hint="City"
+                    android:inputType="textPersonName" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtinputPin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtinputCity">
+
+                <EditText
+                    android:id="@+id/edtpin"
+                    android:layout_width="350dp"
+                    android:layout_height="39dp"
+                    android:layout_below="@+id/txtinputCity"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"
+                    android:hint="Pin Code"
+                    android:inputType="textPostalAddress" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtinputMob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtinputPin">
+
+                <EditText
+                    android:id="@+id/edtMob"
+                    android:layout_width="350dp"
+                    android:layout_height="39dp"
+                    android:layout_below="@+id/txtinputPin"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"
+                    android:hint="Mobile No"
+                    android:inputType="phone" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtinputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtinputMob">
+
+                <EditText
+                    android:id="@+id/edtemail"
+                    android:layout_width="350dp"
+                    android:layout_height="39dp"
+                    android:layout_below="@+id/edtMob"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtinputMemberId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtinputEmail">
+
+                <EditText
+                    android:id="@+id/edtmemberid"
+                    android:layout_width="350dp"
+                    android:layout_height="39dp"
+                    android:layout_below="@+id/edtemail"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"
+                    android:hint="Membership Id"
+                    android:inputType="textPersonName" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tvDob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/btnsubmit"
+                android:layout_alignStart="@+id/btnsubmit"
+                android:layout_below="@+id/txtinputMemberId"
+                android:layout_marginTop="10dp"
+                android:text="Date Of Birth :"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tvadddob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tvpromo"
+                android:layout_toEndOf="@+id/tvDob"
+                android:layout_toRightOf="@+id/tvDob"
+                android:text=" Add Birth Date"
+                android:textColor="#7f0000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tvpromo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDob"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Have Promo Code ?"
+                android:textColor="#7f0000"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btnsubmit"
+                android:layout_width="340dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvpromo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#7f0000"
+                android:text="SUBMIT"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

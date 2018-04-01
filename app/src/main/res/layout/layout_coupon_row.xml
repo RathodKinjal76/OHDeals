@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgbrandlogo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ohdeals_fb" />
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvbrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="Brand Name"
+            android:textColor="#7f0000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvoffer"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="Offers"
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvexpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="Expiry Date:2018-03-31"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgarrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/maroon_arrow" />
+
+</LinearLayout>
